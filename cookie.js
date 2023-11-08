@@ -8,8 +8,8 @@ var cookie = document.getElementById("cookie");
 function cookieClick() { 
 
     // every click increment count by 1 and update the numbers div element
-    var numbers = document.getElementById("numbers");
-    num += 1;
+    var numbers = //get numbers using ID
+    //increment number by 1 for that click
     numbers.innerHTML = num;
 
     // get the level div element from the html file
@@ -28,9 +28,9 @@ function cookieClick() {
         upgradeLevel.innerHTML = "Carl Alphonce Level";
     }
 
-    // automatic upgrade to 30x ethan blanton level
+    // automatic upgrade to 100x ethan blanton level
     if(num >= 1000) {
-        num += 30;
+        num += 100;
         upgradeLevel.innerHTML = "Ethan Blanton Level";
     }
 
@@ -39,4 +39,6 @@ function cookieClick() {
         num += 1000;
         upgradeLevel.innerHTML = "Matthew Hertz Level";
     }
+
+    //Add semi broken cookie for halfway and completely break the cookie after completion
 }

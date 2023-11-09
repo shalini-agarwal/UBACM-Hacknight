@@ -6,6 +6,7 @@
     <head>
         <script type="text/javascript" src="cookie.js"></script>
         <!--Insert title here-->
+        <title>Hacknight ACM</title>
         <link rel = "stylesheet" href = "style.css"/>
         <link rel="icon" type="image/png" href="imgs/cookie.png" sizes="32x32">
     </head>
@@ -16,6 +17,7 @@
         <!--this is where our logo will be contained within-->
         <div id="logo">
             <!-- insert image and link it to UB ACM -->
+            <img src="imgs/ubacm.png" width="150px">
             </a>
         </div>
         
@@ -27,8 +29,8 @@
 
             <!--this is our cookie and js clicker function-->
             <!-- Add onclick function here -->
-            <div id="cookie" > 
-                <img src="imgs/cookie.png" width="200px">
+            <div id="cookie" onclick="cookieClick()" > 
+                <img id = "image" src="imgs/cookie.png" width="200px">
             </div>
             
             <!--this is our cookie count-->
@@ -42,6 +44,7 @@
             <!--this is our instructions section-->
             <div id="instructions">
                 <!-- Add instructions text here -->
+                <p> Click the cookie!</p>
             </div>
 
         </div>

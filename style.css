@@ -4,6 +4,9 @@
 /* this will affect the body section as a whole */
 body {
     /* set margin, text align and body color */
+    background-color: rgb(255, 0, 170);
+    margin: auto;
+    text-align: center;
     font-family: 'Oswald',sans-serif;
     text-transform: uppercase;
 }                                           
